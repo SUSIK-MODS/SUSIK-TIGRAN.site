@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple URL Shortener</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple URL Shortener</h1>
+  <p>Введите код ссылки:</p>
+  <input type="text" id="shortCode" placeholder="Например, 2C7N">
+  <button onclick="redirect()">Перейти</button>
+  <p id="error" style="color:red;"></p>
+
+  <script src="./script.js"></script>
+</body>
+</html>
